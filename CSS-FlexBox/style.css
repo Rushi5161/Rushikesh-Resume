@@ -1,0 +1,296 @@
+#container1{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+h1{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.box1{
+    background-color: rgb(66, 213, 213);
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#container2{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#container3{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#container4{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#container5{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#container6{
+    background-color: rgb(217, 221, 227);
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#container7{
+    background-color: rgb(217, 221, 227);
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container8{
+    background-color: rgb(217, 221, 227);
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#container9{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#container10{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container11{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#container12{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container13{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container14{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container15{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: start;
+}
+
+#container16{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: end;
+}
+
+#container17{
+    background-color: rgb(217, 221, 227);
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#container18{
+    background-color: rgb(217, 221, 227);
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    display: flex;
+    gap: 200px;
+}
+
+#container19{
+    background-color: rgb(217, 221, 227);
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    display: flex;
+    gap: 100px 300px;
+}
+
+/* Order */
+.One{
+    order: 3;
+}
+.Two{
+    order:1;
+}
+.Three{
+    order: 2;
+}
+
+/* flex-grow */
+.grow1{
+    flex-grow: 3;
+}
+.grow2{
+    flex-grow: 1;
+}
+.grow3{
+    flex-grow: 2;
+}
+
+/* flex-shrink */
+.shrink1{
+    flex-shrink: 0;
+}
+.shrink2{
+    height: 100px;
+    width: 100px;
+    flex-shrink: 1;
+}
+.shrink3{
+    height: 100px;
+    width: 100px;
+    flex-shrink: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
