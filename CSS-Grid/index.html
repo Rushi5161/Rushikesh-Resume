@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta names="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Grid Playground</h1>
+    <h2 style="text-align: center;">display : grid</h2>
+    <div id="container1">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h1>grid-templete-row: 100px 100px 100px</h1>
+    <div id="container2">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h1>grid-template-rows: 100px 100px 100px; <br>
+        grid-template-columns: 120px 120px 120px
+    </h1>
+    <div id="container3">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+    
+    <h1>grid-template-rows: 100px 100px 100px; <br>
+        grid-template-columns: auto auto auto
+    </h1>
+    <div id="container4">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h1>grid-template-rows: repeat(3, 1fr); </h1>
+    <div id="container5">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h1>grid-template-columns: repeat(3, 1fr); </h1>
+    <div id="container6">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h1>grid-template-rows: repeat(5, 1fr);<br>
+        grid-template-columns: repeat(3, 1fr) </h1>
+    <div id="container7">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h1>Grid Gap</h1>
+    <h2 style="text-align: center;">grid-template-rows: 1fr 1fr 1fr 1fr 1fr;<br>
+    grid-template-columns: repeat(3, 1fr);<br>
+    grid-row-gap: 20px; </h2>
+    <div id="container8">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+        <div class="box1">F</div>
+        <div class="box1">G</div>
+        <div class="box1">H</div>
+        <div class="box1">I</div>
+        <div class="box1">J</div>
+    </div>
+    <hr>
+
+    <h1>Grid Gap</h1>
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+        grid-row-gap: 20px;<br>
+        grid-column-gap: 30px 
+    </h2>
+    <div id="container9">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+        <div class="box1">F</div>
+        <div class="box1">G</div>
+        <div class="box1">H</div>
+        <div class="box1">I</div>
+        <div class="box1">J</div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+    </h2>
+    <h1>
+        .one{ <br>
+        grid-row-start: 1;<br>
+        grid-row-end: 3;
+        }
+    </h1>
+    <div id="container10">
+        <div class="box1 one">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+    </h2>
+    <h1>
+        .firstBox{ <br>
+        grid-column-start: 1;<br>
+        grid-column-end: 3;
+        }
+    </h1>
+    <div id="container11">
+        <div class="box1 firstBox">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+    </h2>
+    <h1>
+        .secondBox{ <br>
+        grid-column: 1 / span 3;
+        }
+    </h1>
+    <div id="container12">
+        <div class="box1">A</div>
+        <div class="box1 secondBox">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+    </h2>
+    <h1>
+        .thirdBox{ <br>
+        grid-row: 1 / span 4;
+        }
+    </h1>
+    <div id="container13">
+        <div class="box1">A</div>
+        <div class="box1">B</div>
+        <div class="box1 thirdBox">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+    </h2>
+    <h1>
+        .first{ <br>
+        grid-column: 2 / span 2; <br>
+        grid-row: 1 / span 4;
+        }
+    </h1>
+    <div id="container14">
+        <div class="box1 first">A</div>
+        <div class="box1">B</div>
+        <div class="box1">C</div>
+        <div class="box1">D</div>
+        <div class="box1">E</div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+    </h2>
+    <h1>justify-items: center;</h1>
+    <div id="container15">
+        <div class="box2">A</div>
+        <div class="box2">B</div>
+        <div class="box2">C</div>
+        <div class="box2">D</div>
+        <div class="box2">E</div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">
+        grid-template-rows: 1fr 1fr 1fr;<br>
+        grid-template-columns: repeat(3, 1fr);<br>
+    </h2>
+    <h1>
+        justify-items: center;<br>
+        align-items: center;
+    </h1>
+    <div id="container16">
+        <div class="box2">A</div>
+        <div class="box2">B</div>
+        <div class="box2">C</div>
+        <div class="box2">D</div>
+        <div class="box2">E</div>
+    </div>
+    <hr>
+</body>
+</html>
